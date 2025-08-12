@@ -1,0 +1,90 @@
+body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .game-container {
+      background: #ffffff;
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      text-align: center;
+      max-width: 420px;
+      width: 90%;
+    }
+
+    h1 {
+      color: #2c3e50;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #34495e;
+      font-size: 16px;
+    }
+
+    input[type="number"] {
+      padding: 10px;
+      font-size: 16px;
+      width: 80px;
+      margin-right: 10px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #219150;
+    }
+
+    #restartBtn {
+      margin-top: 20px;
+      background: #8e44ad;
+    }
+
+    #restartBtn:hover {
+      background: #6c3483;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    #feedback {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    #hint {
+      font-style: italic;
+      margin-top: 5px;
+      font-size: 16px;
+    }
+
+    .footer {
+      font-size: 14px;
+      color: #7f8c8d;
+      margin-top: 20px;
+    }
